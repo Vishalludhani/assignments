@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 250px;
+    background-color: lightgray;
+    margin: auto;
+    padding-top: 50px;
+    padding-left: 80px;
+}
+
+nav h1{  
+    font-size: 4rem;
+}
+
+nav p{
+    padding-bottom: 10px;
+}
+nav button{
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+div{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: -20px;
+}
+
+.card{
+    width: 350px;
+    text-align: left;
+    padding: 25px;
+}
+
+.card h2{
+    padding-bottom: 8px;
+}
+
+.card p{
+    padding-bottom: 8px;
+}
+.card button{
+    background-color: grey;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+footer{
+    margin: auto;
+    padding-left: 79px;
+}
+
+hr{
+    width: 90%;
+    margin: auto;
+}
